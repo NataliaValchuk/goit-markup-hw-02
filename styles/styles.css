@@ -1,0 +1,17 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+button {
+  color: white;
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: red;
+}
+
+button:focus {
+  background-color: green;
+}
