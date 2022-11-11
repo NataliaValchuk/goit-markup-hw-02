@@ -1,6 +1,7 @@
 :root {
   --primary-color: #2196f3;
   --secondary-color: #212121;
+  --silver-color: #f5f4fa;
   --light-color: #ffffff;
   --dark-color: #000000;
 }
@@ -8,6 +9,14 @@
 body {
   color: var(--secondary-color);
   font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 .visually-hidden {
@@ -42,12 +51,7 @@ body {
   color: var(--dark-color);
 }
 
-a {
-  text-decoration: none;
-}
-
 .nav-link {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -109,13 +113,16 @@ a {
   cursor: pointer;
 }
 
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #188ce8;
+}
+
 .benefits {
   background: var(--light-color);
 }
 
 .benefits-item-title {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -126,8 +133,6 @@ a {
 }
 
 .benefits-item-desc {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -142,8 +147,6 @@ a {
 }
 
 .about-us-title {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -154,12 +157,10 @@ a {
 }
 
 .team {
-  background: #f5f4fa;
+  background: var(--silver-color);
 }
 
 .team-title {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -174,34 +175,6 @@ a {
 }
 
 .team-list-item-name {
-}
-
-.team-list-item-skill {
-}
-
-.footer {
-  background: #2f303a;
-}
-
-.footer .logo .accent {
-  color: var(--light-color);
-}
-
-.address {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-
-  letter-spacing: 0.03em;
-
-  color: var(--light-color);
-}
-
-.team-list-item-name {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -213,13 +186,80 @@ a {
 }
 
 .team-list-item-skill {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
 
   text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.footer {
+  background: #2f303a;
+}
+
+.footer .logo .accent {
+  color: var(--light-color);
+}
+
+.address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+
+  color: var(--light-color);
+}
+
+.portfolio {
+  background-color: var(--light-color);
+}
+
+.tab-btn {
+  color: var(--dark-color);
+  background: var(--silver-color);
+  border: 0;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+.tab-btn:hover,
+.tab-btn:focus {
+  color: var(--light-color);
+  background: var(--primary-color);
+}
+
+.project-card {
+  background: var(--light-color);
+  border: 1px solid #eeeeee;
+}
+
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+
+.project-type {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+
   letter-spacing: 0.03em;
 
   color: #757575;
