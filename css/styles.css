@@ -32,6 +32,7 @@ a {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+/*-----------header-----------*/
 
 .header {
   background: var(--light-color);
@@ -77,6 +78,9 @@ a {
   color: var(--primary-color);
 }
 
+
+/*------------HERO-----------*/
+
 .hero {
   background: #2f303a;
 }
@@ -117,6 +121,9 @@ a {
   background-color: #188ce8;
 }
 
+
+/*-----------BENEFITS----------*/
+
 .benefits {
   background: var(--light-color);
 }
@@ -141,6 +148,9 @@ a {
   color: #757575;
 }
 
+
+/*----------ABOUT----------*/
+
 .about-us {
   background: var(--light-color);
 }
@@ -154,6 +164,10 @@ a {
 
   color: var(--secondary-color);
 }
+
+
+
+/*-----------TEAM------------*/
 
 .team {
   background: var(--silver-color);
@@ -195,6 +209,9 @@ a {
   color: #757575;
 }
 
+
+/*----------FOOTER----------*/
+
 .footer {
   background: #2f303a;
 }
@@ -213,6 +230,8 @@ a {
 
   color: var(--light-color);
 }
+
+/*------------BUTTON------------*/
 
 .portfolio {
   background-color: var(--light-color);
@@ -236,7 +255,11 @@ a {
 .tab-btn:focus {
   color: var(--light-color);
   background: var(--primary-color);
+
 }
+
+
+/*-----------PROJECT-CARD-----------*/
 
 .project-card {
   background: var(--light-color);
